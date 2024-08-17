@@ -1,0 +1,429 @@
+<html>
+<meta charset="utf-8" />
+<title> Exercise 2 </title>
+    <head>
+    </head>
+    <body>
+
+        <script>
+        function btnCat(){   // get the text field element   
+                        var displayField = document.getElementById("txtdisplay");   
+                        displayField.value = "User clicks Cat"; 
+
+                        var SpanTask4 = document.getElementById("spTextTask4");
+                        SpanTask4.innerHTML = "Cat is Clicked"; 
+
+                        var idCat = document.getElementById("imgAnimal");
+                        idCat.src = "Cat.PNG";
+
+                        var myframe = document.getElementById('btnTask4_Cat');
+                        myframe.style.backgroundColor = "yellow";      
+                        
+                        var myframe = document.getElementById('btnTask4_Dog');
+                        myframe.style.backgroundColor = "#f0f0f0"; 
+
+                        var myframe = document.getElementById('btnTask4_Frog');
+                        myframe.style.backgroundColor = "#f0f0f0"; 
+                        }
+
+        function btnDog(){   // get the text field element   
+                        var displayField = document.getElementById("txtdisplay");   
+                        displayField.value = "User clicks Dog"; 
+
+                        var SpanTask4 = document.getElementById("spTextTask4");
+                        SpanTask4.innerHTML = "Dog is Clicked"; 
+
+                        var idDog = document.getElementById("imgAnimal");
+                        idDog.src = "Dog.PNG";
+
+                        var myframe = document.getElementById('btnTask4_Dog');
+                        myframe.style.backgroundColor = "yellow"; 
+
+                        var myframe = document.getElementById('btnTask4_Cat');
+                        myframe.style.backgroundColor = "#f0f0f0";           
+
+                        var myframe = document.getElementById('btnTask4_Frog');
+                        myframe.style.backgroundColor = "#f0f0f0"; 
+                        }
+
+
+        function btnFrog(){   // get the text field element   
+                            var displayField = document.getElementById("txtdisplay");   
+                            displayField.value = "User clicks Frog"; 
+
+                            var idFrog = document.getElementById("imgAnimal");
+                            idFrog.src = "Frog.PNG";
+
+                            var SpanTask4 = document.getElementById("spTextTask4");
+                            SpanTask4.innerHTML = "Frog is Clicked"; 
+
+                            var myframe = document.getElementById('btnTask4_Frog');
+                            myframe.style.backgroundColor = "yellow"; 
+
+                            var myframe = document.getElementById('btnTask4_Cat');
+                            myframe.style.backgroundColor = "#f0f0f0";           
+
+                            var myframe = document.getElementById('btnTask4_Dog');
+                            myframe.style.backgroundColor = "#f0f0f0"; 
+
+                            }
+
+        </script>
+        
+        <style> 
+
+            .divBold {font-weight: bold;}
+
+            .divTbl {font-weight: bold;
+                     text-align: center;
+                     vertical-align: middle;
+                    }
+
+            .h11 {
+                margin-top: 50px;
+                color: navy; 
+                text-align:left;
+                font-size: 30px}
+                
+            .Name {background-color: lightblue;
+                width: 600px;
+                height:200px;
+                display: block;
+                font-size: 25;
+                color:navy;
+                font-weight: bold;
+                margin: 20px;
+                border-radius: 5px 5px 5px;
+                border: 1px solid red;
+                }
+
+            .TblTask3 {
+                width: 50%;
+                border-collapse: collapse;
+            }
+
+            .TblTask3 th  {
+                background-color: navy;
+                color: white;
+                padding: 10px;
+                text-align: left;
+                border: 1px solid black;
+            }
+
+            .TblTask3, .TblTask3 tr, .TblTask3 td {
+            border: 1px solid black;
+            }
+
+            .Task3Img {
+                width: 200px; 
+                height: auto; 
+                border: 2px solid #000; 
+                border-radius: 8px; 
+            }
+
+            .Task4Img {
+                width: 300px; 
+                height: auto; 
+                border: 2px solid #000; 
+                border-radius: 8px; 
+            }
+
+            .dvTask3Img > img:hover {
+                                    width: 500px;
+                                    height: 500px;
+                                    }
+            .TblTask2 {
+                width: 50%;
+                border-collapse: collapse;
+            }
+            .TblTask2 th  {
+                background-color: black;
+                color: white;
+                padding: 10px;
+                text-align: left;
+                border: 1px solid white;
+            }
+            .TblTask2 td {
+                padding: 10px;
+                border: 1px solid #ccc;
+            }
+            .TblTask2 tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .TblTask2 tr:nth-child(odd) {
+                background-color: white;
+            }
+        </style>
+
+   <h1 class="h11"> Assessment Task 1</h1>
+    <div>
+        <span class="Name">
+            <br>
+            &nbsp;&nbsp;8865796 Nallan Reddy 
+            <br><br>
+            &nbsp;&nbsp;COMP804: Web Security 
+            <br><br>
+            &nbsp;&nbsp;Assignment 1 , due at the end of Week 5 
+      </span>
+    </div>
+
+    <h1 class="h11"> Assessment Task 2</h1>
+    <div>
+     <table class="TblTask2">
+        <tr> 
+            <th>Activity</th> 
+            <th>Date</th> 
+        </tr> 
+        <tr>
+            <div>
+                <td colspan="2" class="divTbl">Spring Session (2024)</td> 
+            </div>
+        </tr>
+        <tr> 
+            <td>First day to enrol for re-enrolling (continuing students) </td>
+            <td>20 Nov 2023</td>
+        </tr> 
+        <tr> 
+            <td>Orientation</td>
+            <td>16 Jul 2024</td>
+        </tr> 
+        <tr> 
+            <td>Lecture Commence(weeks 1-10)</td>
+            <td>22 Jul - 27 Sep 2024</td>
+        </tr> 
+        <tr> 
+            <td>Last day to enrol/add subjects yourself</td>
+            <td>02 Aug 2024</td>
+        </tr> 
+        <tr> 
+            <td>Last day to enrol/add subjects with Head of Student approval</td>
+            <td>09 Aug 2024</td>
+        </tr> 
+        <tr> 
+            <td>
+                <div class="divBold">CENSUS DATE</div>
+                <ul><li>Fees due</li>
+                <li>Last day to withdraw from subjects without paying for them</li>
+                <li>HECS/FEE HELP debt reporting date</li>
+                <li>Last day to change HECS/FEE HELP billing option</li>
+                </ul>
+            </td>
+            <td>31 Aug 2024</td>
+        </tr> 
+        <tr> 
+            <td><a href="https://www.uow.edu.au/search/?query=census+date" target="_blank">Learn more about Census date ></a></td>
+            <td></td>
+        </tr> 
+        
+        <tr> 
+            <td>Student Services and Amenities Fees Due</td>
+            <td>01 Sep 2024</td>
+        </tr> 
+     </table>
+    </div>
+
+    <h1 class="h11"> Assessment Task 3</h1>
+    <div>
+        <table class = "TblTask3">
+            <tr> 
+                <th>Name</th> 
+                <th>Attacks</th> 
+            </tr> 
+            <tr>
+                <td> 1. SQL Injection : 
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "SQL Injection.PNG" class="Task3Img">
+                    </div>                    
+                </td>
+                <td>
+                    <div>
+                        SQL Injection (SQLi) is a type of an injection attack that makes it possible to execute malicious SQL statements. 
+                        These statements control a database server behind a web application. 
+                        Attackers can use SQL Injection vulnerabilities to bypass application security measures. 
+                        They can go around authentication and authorization of a web page or web application and retrieve the content of the entire SQL database. 
+                        They can also use SQL Injection to add, modify, and delete records in the database.
+                    </div>
+                    <br>
+                    <a href="https://www.acunetix.com/websitesecurity/sql-injection/" target="_blank">https://www.acunetix.com/websitesecurity/sql-injection/</a>                    
+                </td>
+            </tr>
+            <tr>
+                <td> 2. Cross-Site Scripting (XSS):  <br><br> 
+                    <div class = "dvTask3Img">
+                        <img src = " CrossSiteXSS.PNG " class = "Task3Img">
+                    </div>              
+                </td>
+                <td>
+                    <div>
+                        Cross site scripting (XSS) is a common attack vector that injects malicious code into a vulnerable web application. 
+                        XSS differs from other web attack vectors (e.g., SQL injections), 
+                        in that it does not directly target the application itself. Instead, the users of the web application are the ones at risk.
+                    </div>
+                    <br>
+                    <a href="https://www.imperva.com/learn/application-security/cross-site-scripting-xss-attacks/" target="_blank">https://www.imperva.com/XSS</a>                                        
+                </td>the ones at risk.
+            </tr>
+            <tr>
+                <td> 3. Denial of Service (DoS) and Distributed Denial of Service (DDoS):<br><br> 
+                    <div class = "dvTask3Img">
+                        <img src = "DDOS.PNG" class = "Task3Img"> 
+                    </div>                                    
+                </td>
+                <td><div> 
+                        Attacks aimed at making a web application or service unavailable by overwhelming it with a flood of traffic or requests. 
+                    </div> 
+                    <br>
+                    <a href="https://www.cloudflare.com/en-au/learning/ddos/what-is-a-ddos-attack/" target="_blank">https://www.cloudflare.com/DDOS</a>       
+                                   
+                </td>
+            </tr>
+            <tr>
+                <td>4. Remote Code Execution (RCE):
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "RCE.PNG" class = "Task3Img">      
+                    </div>                
+                </td>
+                <td>
+                    <div>
+                        A remote code execution (RCE) attack is one where an attacker can run malicious code on an organization’s computers or network. 
+                         The ability to execute attacker-controlled code can be used for various purposes, including deploying additional malware or stealing sensitive data.
+                    </div>
+                    <br>
+                    <a href="https://www.cloudflare.com/en-au/learning/security/what-is-remote-code-execution/" target="_blank">https://www.cloudflare.com/RCE</a>                        
+                </td>
+            </tr>
+            <tr>
+                <td>5. Clickjacking:
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "Clickjacking.PNG" class = "Task3Img">
+                    </div>               
+                </td>
+                <td>
+                    <div>
+                        Clickjacking is an attack that tricks a user into clicking a webpage element which is invisible or disguised as another element. 
+                        This can cause users to unwittingly download malware, 
+                        visit malicious web pages, provide credentials or sensitive information, transfer money, or purchase products online.  
+                    </div> 
+                    <br> 
+                    <a href="https://en.wikipedia.org/wiki/Clickjacking" target="_blank"> https://en.wikipedia.org/wiki/Clickjacking</a>                   
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>6. Brute Force Attack:
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "Brute.PNG" class = "Task3Img">
+                    </div>                   
+                </td>
+                <td>          
+                    <div>
+                        A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys. 
+                        It is a simple yet reliable tactic for gaining unauthorized access to individual accounts and organizations' systems and networks.
+                    </div> 
+                    <br> 
+                    <a href="https://en.wikipedia.org/wiki/Brute-force_attack" target="_blank"> https://en.wikipedia.org/wiki/Brute-force_attack</a>                        
+                </td>
+            </tr>
+            <tr>
+                <td>7. Session Hijacking:          
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "Session.PNG" class = "Task3Img">
+                    </div>                  
+                </td>
+                <td>
+                    <div>
+                        In session hijacking (TCP hijacking), attackers steal a web user's active session by acquiring their unique session ID. 
+                        This lets them impersonate the user, accessing data or performing actions as if they were the legitimate user.
+                    </div> 
+                    <br> 
+                    <a href="https://en.wikipedia.org/wiki/Session_hijacking" target="_blank">https://en.wikipedia.org/wiki/Session_hijacking</a>                             
+                </td>
+            </tr>
+            <tr>
+                <td>8. LDAP Injection:     
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "LDAP.PNG" class = "Task3Img">
+                    </div>                               
+                </td>
+                <td>   
+                <div>
+                    In computer security, LDAP injection is a code injection technique used to exploit web applications 
+                    which could reveal sensitive user information or modify information represented in the 
+                    LDAP (Lightweight Directory Access Protocol) data stores.
+                </div> 
+                <br> 
+                <a href="https://en.wikipedia.org/wiki/LDAP_injection" target="_blank">https://en.wikipedia.org/wiki/LDAP_injection</a>                                            
+                </td>
+            </tr>
+            <tr>
+                <td>9. DNS Spoofing (DNS Cache Poisoning):     
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "DNS.PNG" class = "Task3Img">
+                    </div>             
+                </td>
+                <td>
+                    <div>
+                        DNS cache poisoning is the act of entering false information into a DNS cache, 
+                        so that DNS queries return an incorrect response and users are directed to the wrong websites. 
+                        DNS cache poisoning is also known as 'DNS spoofing.       
+                        <br> 
+                        <a href="https://en.wikipedia.org/wiki/DNS_spoofing" target="_blank">https://en.wikipedia.org/wiki/DNS_spoofing</a>             
+                    </div>         
+                </td>
+            </tr>
+            <tr>
+                <td>10. Remote File Inclusion (RFI):    
+                    <br><br>
+                    <div class = "dvTask3Img">
+                        <img src = "RFI.PNG" class = "Task3Img">
+                    </div>                  
+                </td>
+                <td>
+                    <div>
+                        Remote file inclusion (RFI) is an attack targeting vulnerabilities in web applications that dynamically reference external scripts. 
+                        The perpetrator's goal is to exploit the referencing function in an application to upload malware (e.g., backdoor shells) 
+                        from a remote URL located within a different domain.     
+                        <br> 
+                        <a href="https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/" target="_blank">https://www.imperva.com/rfi</a>             
+                    </div>                        
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h1 class="h11"> Assessment Task 4 </h1>
+    <br>
+
+        <button id="btnTask4_Cat" onClick="btnCat();"> 
+            Cat
+        </button> 
+
+        <button id="btnTask4_Dog" onClick="btnDog();"> 
+            Dog
+        </button> 
+        
+        <button id="btnTask4_Frog" onClick="btnFrog();"> 
+            Frog
+        </button> 
+
+        <br>
+        <br>
+
+        <input type="text" id="txtdisplay" name="txtdisplay">
+        <br>
+        <br>
+
+        <span id="spTextTask4"></span>
+
+        <div>
+            <img src="default.PNG" id="imgAnimal" class="Task4Img" />        
+        </div>
+    </body>
+</html>
